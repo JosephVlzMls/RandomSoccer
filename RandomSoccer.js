@@ -1,8 +1,8 @@
 class Constants {
-
+    
     static field = document.getElementById("field").getContext("2d");
     static scoreboard = document.getElementById("scoreboard").getContext("2d");
-    static matchDuration = 2;
+    static matchDuration = 5;
     static milliseconds = Math.round(1000 / (90 / Constants.matchDuration));
     static playerRadius = 16;
     static playerQuarter = Math.floor(Constants.playerRadius / 2);
